@@ -1,6 +1,7 @@
 // Map panes requires Leaflet 1.x
 // See Leaflet tutorial http://leafletjs.com/examples/map-panes.html
 // template by http://github.com/jackdougherty/leaflet-map/
+//Change in the comment
 
 // set up the map center and zoom level
 var map = L.map('map', {
@@ -11,7 +12,7 @@ var map = L.map('map', {
 
 // customize link to view source code; add your own GitHub repository
 map.attributionControl
-.setPrefix('View <a href="http://github.com/jackdougherty/leaflet-map-panes">code on GitHub</a>, created with <a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
+.setPrefix('View <a href="http://github.com/ngocdo/leaflet-map-panes">code on GitHub</a>, created with <a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
 
 // This pane is above markers but below popups
 // see default pane z-index levels: https://github.com/Leaflet/Leaflet/blob/master/dist/leaflet.css#L73
